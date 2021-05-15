@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-
+import RefComponent from "./RefComponent";
+import PureComponent  from './Pure'
+import Parent from './Parent';
+import Refs from './Refs';
+import ParentRef from './ParentRef';
+import Focus from './FocusDemo';
+import FocusDemo from './FocusDemo';
+import Forms from './Forms';
+import Parencompo from './Parencompo';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  {/* <Parent></Parent> */}
+  {/* <Refs></Refs> */}
+  {/* <ParentRef></ParentRef> */}
+   <FocusDemo></FocusDemo> 
+  {/* <Forms></Forms> */}
+  {/* <Parencompo></Parencompo> */}
     </div>
   );
 }
