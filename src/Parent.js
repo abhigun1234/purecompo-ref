@@ -6,13 +6,13 @@ import Regular from './Regular';
 class Parent extends Component {
     constructor(props){
         super(props)
-    this.state={ name:'abhi'}
+    this.state={ name:'ravi'}
 
     
     }
     componentDidMount(){
             setInterval(()=>{
-             this.setState({name:'abhi'})
+             this.setState({name:'ravi'})
             },2000)
     }
     render() {
@@ -20,9 +20,9 @@ class Parent extends Component {
         return (
             <div>
                 Parent Component
-                {/* <Regular name={this.state.name}></Regular>
-                <Pure name={this.state.name}></Pure> */}
-                <Memo name={this.state.name}></Memo>
+                <Regular name={this.state.name}></Regular>
+                <Pure name={this.state.name}></Pure>
+                {/* <Memo name={this.state.name}></Memo> */}
             </div>
         );
     }
