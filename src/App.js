@@ -10,10 +10,15 @@ import FocusDemo from './FocusDemo';
 import Forms from './Forms';
 import Parencompo from './Parencompo';
 import MyPure from './MyPure';
+import Hooksdemo from './Hooksdemo';
+import Refrence from './Refrence';
+import DataList from './DataList';
 function App() {
   return (
     <div className="App">
-      <Parent/>
+      <Refrence/>
+      {/* <Refrence></Refrence> */}
+      {/* <DataList></DataList> */}
     </div>
   );
 }

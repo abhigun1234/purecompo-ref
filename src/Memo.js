@@ -10,3 +10,4 @@ function Memo(props) {
 }
 
 export default React.memo(Memo);
+// export default Memo
