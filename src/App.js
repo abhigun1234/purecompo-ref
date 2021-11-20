@@ -14,6 +14,7 @@ import Hooksdemo from './Hooksdemo';
 import Refrence from './Refrence';
 import DataList from './DataList';
 import {createStore} from 'redux'
+import Myref from './Myref';
 function App() {
   var default_state=0;
   //reducer
@@ -41,8 +42,9 @@ function App() {
   return (
     <div className="App">
    
-     <Parent></Parent>
+     {/* <Parent></Parent> */}
      {/* <Refs></Refs> */}
+     <Myref></Myref>
     </div>
   );
 }
