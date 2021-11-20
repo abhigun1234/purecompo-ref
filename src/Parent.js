@@ -12,7 +12,7 @@ class Parent extends Component {
     }
     componentDidMount(){
             setInterval(()=>{
-             this.setState({name:'ravi'})
+             this.setState({name:'raj'})
             },2000)
     }
     render() {
