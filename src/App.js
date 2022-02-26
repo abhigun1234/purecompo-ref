@@ -14,7 +14,10 @@ import Hooksdemo from './Hooksdemo';
 import Refrence from './Refrence';
 import DataList from './DataList';
 import {createStore} from 'redux'
-import Myref from './Myref';
+import CoureseDetails from './CoureseDetails';
+import FragmentsDemo from './FragmentsDemo';
+import Table from './Table';
+import MyFragmentDemo from './MyFragmentDemo';
 function App() {
   var default_state=0;
   //reducer
@@ -44,7 +47,11 @@ function App() {
    
      {/* <Parent></Parent> */}
      {/* <Refs></Refs> */}
-     <Myref></Myref>
+     {/* <CoureseDetails></CoureseDetails> */}
+     {/* <FragmentsDemo></FragmentsDemo> */}
+     {/* <Table></Table> */}
+     {/* <MyFragmentDemo></MyFragmentDemo> */}
+     <Parent></Parent>
     </div>
   );
 }
