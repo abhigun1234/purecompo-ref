@@ -51,7 +51,9 @@ function App() {
      {/* <FragmentsDemo></FragmentsDemo> */}
      {/* <Table></Table> */}
      {/* <MyFragmentDemo></MyFragmentDemo> */}
-     <Parent></Parent>
+     {/* <Parent></Parent> */}
+     {/* <ParentRef></ParentRef> */}
+     <Refs></Refs>
     </div>
   );
 }

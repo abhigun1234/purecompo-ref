@@ -10,10 +10,11 @@ class Refs extends Component {
    componentDidMount(){
     console.log("this.inputRef",this.inputRef)
    this.inputRef.current.focus()
-//     console.log("this.inputRef",this.inputRef)
+    console.log("this.inputRef",this.inputRef)
    }
    getData(){
-    alert(this.inputRef.current.value)
+    // alert(this.inputRef.current.value)
+    console.log("this.inputRef.current",this.inputRef)
    }
     render() {
         return (
@@ -21,7 +22,7 @@ class Refs extends Component {
                 {/*  */}
                 {/*  */}
                 
-               <input type="text" placeholder="enter your name"  ref={this.inputRef}/>            
+               <input  onChange={this.getData} type="text" placeholder="enter your name"  ref={this.inputRef}/>            
                <button onClick={this.getData} >get</button>
             </div>
         );
